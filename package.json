@@ -9,8 +9,7 @@
     "start": "npm run start-prod",
     "start-dev": "cross-env NODE_ENV=development babel-node server --useServerRender=true --useLiveData=false",
     "start-prod": "npm run build && cross-env NODE_ENV=production babel-node server --useServerRender=true --useLiveData=false",
-    "test": "jest",
-    "test-watch": "jest --watch"
+    "test": "jest"
   },
   "keywords": [],
   "author": "Daniel Stern (Code Whisperer)",
